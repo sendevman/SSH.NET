@@ -9,7 +9,7 @@ using Renci.SshNet.Tests.Common;
 namespace Renci.SshNet.Tests.Classes
 {
     /// <summary>
-    /// Test for https://github.com/sshnet/SSH.NET/issues/8.
+    /// Test for https://github.com/sendevman/SSH.NET/issues/8.
     /// </summary>
     [TestClass]
     public class SessionTest_Connected_GlobalRequestMessageAfterAuthenticationRace : SessionTest_ConnectedBase

@@ -18,7 +18,7 @@
     <PackageIcon>SS-NET-icon-h500.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>ssh; scp; sftp</PackageTags>
-    <PackageReleaseNotes>https://github.com/sshnet/SSH.NET/releases/tag/$(Version)</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/sendevman/SSH.NET/releases/tag/$(Version)</PackageReleaseNotes>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <NBGV_ThisAssemblyIncludesPackageVersion>true</NBGV_ThisAssemblyIncludesPackageVersion>
@@ -43,7 +43,7 @@
   </ItemGroup>
 
   <ItemGroup Condition=" '$(TargetFramework)' == 'net462' or '$(TargetFramework)' == 'netstandard2.0' ">
-    <!-- Must be kept at version 1.0.0 or higher, see https://github.com/sshnet/SSH.NET/pull/1288 for details. -->
+    <!-- Must be kept at version 1.0.0 or higher, see https://github.com/sendevman/SSH.NET/pull/1288 for details. -->
     <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="[1.0.0,)" />
     <PackageReference Include="System.Memory" Version="4.5.5" />
   </ItemGroup>

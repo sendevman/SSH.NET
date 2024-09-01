@@ -761,7 +761,7 @@ dotnet_diagnostic.IDE0047.severity = suggestion
 # IDE0130: Namespace does not match folder structure
 # https://learn.microsoft.com/en-us/dotnet/fundamentals/code-analysis/style-rules/ide0130
 #
-# TODO: Remove when https://github.com/sshnet/SSH.NET/issues/1129 is fixed
+# TODO: Remove when https://github.com/sendevman/SSH.NET/issues/1129 is fixed
 dotnet_diagnostic.IDE0130.severity = none
 
 # IDE0270: Null check can be simplified

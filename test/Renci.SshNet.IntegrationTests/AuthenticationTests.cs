@@ -428,7 +428,7 @@ namespace Renci.SshNet.IntegrationTests
         public void KeyboardInteractive_NoResponseSet_ThrowsSshAuthenticationException()
         {
             // ...instead of a cryptic ArgumentNullException
-            // https://github.com/sshnet/SSH.NET/issues/382
+            // https://github.com/sendevman/SSH.NET/issues/382
 
             _remoteSshdConfig.WithAuthenticationMethods(Users.Regular.UserName, "keyboard-interactive")
                              .WithChallengeResponseAuthentication(true)

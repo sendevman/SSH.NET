@@ -146,7 +146,7 @@ Private keys can be encrypted using one of the following cipher methods:
 
 ## Building the library
 
-The library has no special requirements to build, other than an up-to-date .NET SDK. See also [CONTRIBUTING.md](https://github.com/sshnet/SSH.NET/blob/develop/CONTRIBUTING.md).
+The library has no special requirements to build, other than an up-to-date .NET SDK. See also [CONTRIBUTING.md](https://github.com/sendevman/SSH.NET/blob/develop/CONTRIBUTING.md).
 
 ## Supporting SSH.NET
 

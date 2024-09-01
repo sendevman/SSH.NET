@@ -128,7 +128,7 @@ namespace Renci.SshNet.Tests.Classes.Security.Cryptography
         [TestMethod]
         public void SignatureDoesNotTruncateLeadingZeroes()
         {
-            // A regression test for https://github.com/sshnet/SSH.NET/issues/1388
+            // A regression test for https://github.com/sendevman/SSH.NET/issues/1388
 
             byte[] data = { 0x41, 0xdb, 0xf3, 0x09, 0x56 };
 

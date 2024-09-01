@@ -690,7 +690,7 @@ namespace Renci.SshNet.Tests.Classes
             var algorithms = rsaPrivateKeyFile.HostKeyAlgorithms.ToList();
 
             // ssh-rsa should be attempted first during authentication by default.
-            // See https://github.com/sshnet/SSH.NET/issues/1233#issuecomment-1871196405
+            // See https://github.com/sendevman/SSH.NET/issues/1233#issuecomment-1871196405
             Assert.AreEqual("ssh-rsa", algorithms[0].Name);
             Assert.AreEqual("rsa-sha2-512", algorithms[1].Name);
             Assert.AreEqual("rsa-sha2-256", algorithms[2].Name);

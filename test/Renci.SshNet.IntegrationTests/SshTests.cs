@@ -97,7 +97,7 @@ namespace Renci.SshNet.IntegrationTests
         }
 
         /// <summary>
-        /// https://github.com/sshnet/SSH.NET/issues/63
+        /// https://github.com/sendevman/SSH.NET/issues/63
         /// </summary>
         [TestMethod]
         [Category("Reproduction Tests")]

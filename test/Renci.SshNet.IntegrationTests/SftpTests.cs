@@ -4904,7 +4904,7 @@ namespace Renci.SshNet.IntegrationTests
             }
         }
 
-        /// https://github.com/sshnet/SSH.NET/issues/253
+        /// https://github.com/sendevman/SSH.NET/issues/253
         [TestMethod]
         public void Sftp_SftpFileStream_Seek_Issue253()
         {

@@ -2,7 +2,7 @@ export default {
     iconLinks: [
       {
         icon: 'github',
-        href: 'https://github.com/sshnet/SSH.NET',
+        href: 'https://github.com/sendevman/SSH.NET',
         title: 'GitHub'
       }
     ]

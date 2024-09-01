@@ -1194,7 +1194,7 @@ namespace Renci.SshNet.IntegrationTests
         }
 
         /// <summary>
-        /// https://github.com/sshnet/SSH.NET/issues/289
+        /// https://github.com/sendevman/SSH.NET/issues/289
         /// </summary>
         [DataTestMethod]
         [DynamicData(nameof(GetScpUploadFileInfoDirectoryDoesNotExistData), DynamicDataSourceType.Method)]
@@ -1274,7 +1274,7 @@ namespace Renci.SshNet.IntegrationTests
         }
 
         /// <summary>
-        /// https://github.com/sshnet/SSH.NET/issues/286
+        /// https://github.com/sendevman/SSH.NET/issues/286
         /// </summary>
         [DataTestMethod]
         [DynamicData(nameof(GetScpUploadFileInfoExistingDirectoryData), DynamicDataSourceType.Method)]
